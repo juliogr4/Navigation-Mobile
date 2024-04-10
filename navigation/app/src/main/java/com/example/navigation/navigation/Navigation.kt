@@ -9,7 +9,7 @@ import androidx.navigation.compose.rememberNavController
 @Composable
 fun Navigation(
     modifier: Modifier = Modifier,
-    startDestination: String = Route.Notification.route
+    startDestination: String = Route.Home.route
 ) {
     val navController = rememberNavController()
     Scaffold(
